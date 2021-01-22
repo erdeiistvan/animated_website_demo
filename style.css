@@ -1,0 +1,242 @@
+.container {
+    position: fixed;
+    background-color: #1A64BD;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+}
+
+.wrapper {
+    position: absolute;
+}
+
+.main-header {
+    position: relative;
+    margin: 0px 50px 50px 50px;
+    top: 50px;
+    color: #FFFFFF;
+    font-size: 35px;
+    font-family: sans-serif;
+}
+
+.header {
+    position: relative;
+    top: 50px;
+    color: #FFFFFF;
+    font-size: 30px;
+    margin: 0px 0px 0px 50px;
+    font-family: sans-serif;
+    opacity: 1;
+    transition: opacity 2.2s ease-in;
+}
+
+.header-animated {
+    position: relative;
+    top: 50px;
+    color: #FFFFFF;
+    font-size: 30px;
+    margin: 0px 0px 0px 50px;
+    font-family: sans-serif;
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+}
+
+.content {
+    position: relative;
+    color: #FFFFFF;
+    font-size: 25px;
+    text-align: justify;
+    margin: 50px 50px 50px 50px;
+    font-family: sans-serif;
+    opacity: 1;
+    transition: opacity 2.2s ease-in;
+}
+
+.content-animated {
+    position: relative;
+    color: #FFFFFF;
+    font-size: 25px;
+    text-align: justify;
+    margin: 50px 50px 50px 50px;
+    font-family: sans-serif;
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+}
+
+.for-button-on {
+    position: absolute;
+    top: 50px;
+    left: 1240px;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+}
+
+.for-button-off {
+    position: absolute;
+    top: 50px;
+    left: 1240px;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+}
+
+.line-top {
+    position: absolute;
+    margin: 10px 10px auto;
+    background-color: #FFFFFF;
+    width: 50px;
+    height: 10px;
+    border-radius: 3px;
+    transition: margin 0.2s ease-in;
+}
+
+.line-mid {
+    position: absolute;
+    margin: 30px 10px auto;
+    background-color: #FFFFFF;
+    width: 50px;
+    height: 10px;
+    border-radius: 3px;
+    opacity: 1;
+    transition: opacity 0.2s linear, margin 0.2s ease-in;
+}
+
+.line-bot {
+    position: absolute;
+    margin: 50px 10px auto;
+    background-color: #FFFFFF;
+    width: 50px;
+    height: 10px;
+    border-radius: 3px;
+    transition: margin 0.2s ease-in;
+}
+
+.line-top-animated {
+    position: absolute;
+    margin: 30px 10px auto;
+    background-color: #FFFFFF;
+    width: 50px;
+    height: 10px;
+    border-radius: 3px;
+    transform: rotate(45deg);
+    transition: transform 0.1s linear, margin 0.1s ease-in;
+}
+
+.line-mid-animated {
+    position: absolute;
+    margin: 30px -60px auto;
+    background-color: #FFFFFF;
+    width: 50px;
+    height: 10px;
+    border-radius: 3px;
+    opacity: 0;
+    transition: opacity 0.2s linear, margin 0.2s ease-in;
+}
+
+.line-bot-animated {
+    position: absolute;
+    margin: 30px 10px auto;
+    background-color: #FFFFFF;
+    width: 50px;
+    height: 10px;
+    border-radius: 3px;
+    transform: rotate(-45deg);
+    transition: transform 0.1s linear, margin 0.1s ease-in;
+}
+
+.rectangle-left {
+    position: relative;
+    z-index: -1;
+    margin: 0 auto;
+    display: inline-block;
+    float: left;
+    width: 0px;
+    height: 100%;
+    background-color: #BF126C;
+    transition: width 0.5s ease-in;
+}
+
+.rectangle-right {
+    position: relative;
+    z-index: -1;
+    margin: 0 auto;
+    display: inline-block;
+    float: right;
+    width: 0px;
+    height: 100%;
+    background-color: #BF126C;
+    transition: width 0.5s ease-in;
+}
+
+.rectangle-left-animated {
+    position: relative;
+    z-index: -1;
+    margin: 0 auto;
+    display: inline-block;
+    float: left;
+    width: 300px;
+    height: 100%;
+    background-color: #BF126C;
+    transition: width 0.5s ease-in;
+}
+
+.rectangle-right-animated {
+    position: relative;
+    z-index: -1;
+    margin: 0 auto;
+    display: inline-block;
+    float: right;
+    width: 300px;
+    height: 100%;
+    background-color: #BF126C;
+    transition: width 0.5s ease-in;
+}
+
+.menu-container {
+    position: absolute;
+    left: 510px;
+    top: -300px;
+    width: 300px;
+    height: 300px;
+    transition: top 0.1s ease-in;
+}
+
+.menu-container-animated {
+    position: absolute;
+    left: 510px;
+    top: 200px;
+    width: 300px;
+    height: 300px;
+    transition: top 1.3s ease-in;
+}
+
+.menu-list {
+    list-style-type: none;
+    position: relative;
+    margin: 0px auto;
+    width: 300px;
+    
+}
+
+.menu-item {
+    margin: 20px 10px 20px 10px;
+    text-align: center;
+    font-size: 35px;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    transition: font-size 0.1s linear;
+}
+
+.menu-item-animated {
+    margin: 20px 10px 20px 10px;
+    text-align: center;
+    font-size: 45px;
+    color: #BF126C;
+    font-family: sans-serif;
+    transition: font-size 0.1s linear;
+}
